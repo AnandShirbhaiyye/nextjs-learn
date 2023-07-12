@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 export default function About () {
   return (
-    <div>About page</div>
+    <div> 
+    <h2>About page</h2>
+    <Link href="/">HomePage</Link>
+  </div>
   )
 }

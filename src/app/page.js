@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -23,6 +24,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Basic Routing | Make new Page</h1>
+      <Link href="login">Go to login page</Link><br/><br/>
+      <Link href="about">Go to about page</Link>
       {/* <h1>Hello Anand...</h1>
       <User name="Anand" age={23}/>
       <User name="Kajal" age={26}/>
