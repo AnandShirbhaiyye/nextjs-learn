@@ -10,6 +10,12 @@ export default function About () {
     <h2>About page</h2>
     {/* <Link href="/">HomePage</Link> */}
     <button onClick={()=>router.push("/")}>go to home page</button>
+
+    <br/>
+
+    <Link href="./about/aboutcollege">Go to About College Page</Link><br/><br/>
+    <Link href="./about/aboutstudent">Go to About Student Page</Link>
+
   </div>
   )
 }
