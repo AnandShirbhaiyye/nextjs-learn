@@ -27,7 +27,8 @@ export default function Home() {
   //   }
 
   return (
-    <main className={styles.main}>
+    <main>
+      {/* className={styles.main} */}
       <h1>Basic Routing | Make new Page</h1>
       <Link href="login">Go to login page</Link>
       <br />
