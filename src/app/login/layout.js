@@ -1,9 +1,13 @@
 import Link from "next/link";
+import './login.css';
 
 export default function layout({children }){
     return(
         <div>
-            <ul>
+            <ul className="login-menu">
+                <li>
+                    <h4>Login Navbar</h4>
+                </li>
                 <li>
                     <Link href="/login">Login Main</Link>
                 </li>
