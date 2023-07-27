@@ -13,7 +13,7 @@ export default function Login() {
   }
   return (
     <div> 
-      <h2>Login page</h2>
+      <h2 className='heading'>Login page</h2>
       <Link href="/">HomePage</Link><br/><br/>
 
       {/* <button onClick={()=>router.push("/login/loginstudent")}>Go to Student Login Page</button> */}
