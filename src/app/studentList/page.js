@@ -6,16 +6,16 @@ export default function StudentList() {
       <h1>Student List</h1>
       <ul>
         <li>
-          <Link href="/studentList/1">Anand</Link>
+          <Link href="/studentList/anand">Anand</Link>
         </li>
         <li>
-          <Link href="/studentList/2">Kajal</Link>
+          <Link href="/studentList/kajal">Kajal</Link>
         </li>
         <li>
-          <Link href="/studentList/3">Kanchan</Link>
+          <Link href="/studentList/kanchan">Kanchan</Link>
         </li>
         <li>
-          <Link href="/studentList/4">Ujwal</Link>
+          <Link href="/studentList/ujwal">Ujwal</Link>
         </li>
       </ul>
     </div>
